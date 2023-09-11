@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Tecnología</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7; /* 60% blanco */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333; /* 30% negro */
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            font-family: Arial, sans-serif; /* Fuente predeterminada */
+        }
+
+        .nombre-portafolio {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .perfil-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .boton {
+            background-color: #d9534f; /* 10% rojo */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            background-color: #c9302c;
+        }
+
+        .contenido {
+            padding: 20px;
+        }
+
+        /* Estilos para la barra de navegación */
+        .navbar {
+            background-color: #333; /* 30% negro */
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .navbar a {
+            display: inline-block;
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                margin: 10px 0;
+            }
+        }
+
+        /* Estilos para la sección de portafolio */
+        .portafolio {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para las tarjetas de proyectos */
+        .proyecto {
+            background-color: #f2f2f2; /* Color de fondo de las tarjetas */
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .proyecto:hover {
+            transform: scale(1.02);
+        }
+
+        /* Estilos para enlaces de proyectos */
+        .proyecto a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .proyecto a:hover {
+            color: #d9534f; /* 10% rojo */
+        }
+
+        /* Estilos para los iconos de redes sociales */
+        .redes-sociales {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .redes-sociales a {
+            font-size: 24px;
+            color: #333;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .redes-sociales a:hover {
+            color: #d9534f; /* 10% rojo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="perfil-container">
+            <img src="tu-imagen-de-perfil.jpg" alt="Imagen de perfil">
+            <h1>Nombre del Portafolio</h1>
+            <div class="nombre-portafolio">Profesional en Tecnología</div>
+        </div>
+    </header>
+    <div class="navbar">
+        <a href="#acerca-de-mi">Acerca de mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    <main class="contenido">
+        <section class="portafolio" id="acerca-de-mi">
+            <h2>Acerca de mí</h2>
+            <p>Escribe aquí tu información personal y profesional con un enfoque en tecnología.</p>
+        </section>
+        <section class="portafolio" id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3><a href="#">Proyecto 1</a></h3>
+                <p>Descripción breve del proyecto 1.</p>
+            </div>
+            <div class="proyecto">
+                <h3><a href="#">Proyecto 2</a></h3>
+                <p>Descripción breve del proyecto 2.</p>
+            </div>
+            <!-- Puedes agregar más proyectos aquí -->
+        </section>
+        <section class="portafolio" id="contacto">
+            <h2>Contacto</h2>
+            <p>Información de contacto y formulario de contacto.</p>
+        </section>
+        <div class="redes-sociales">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </main>
+</body>
+</html>
+
+
